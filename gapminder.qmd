@@ -10,7 +10,7 @@ df = px.data.gapminder()
 
 import pins
 board = pins.board_connect()
-board.pin_write(df, "kelly.obriant/gapminder123", type="csv");
+board.pin_write(df, "kelly.obriant@posit.co/gapminder123", type="csv");
 ```
 
 ## Row {height=60%}
